@@ -1,0 +1,101 @@
+
+.navbar-custom {
+ background: linear-gradient(
+ #2a1b3d, #44318d
+   );
+ }
+.navbar .navbar-nav .nav-item .nav-link {
+    font-weight: 700;
+    font-family: 'Helvetica';
+}
+
+.footer-copyright{
+  background: linear-gradient(
+  #154c79, #154c79
+    );
+}
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: inherit;
+}
+
+#top {
+  text-align: left;
+  background: linear-gradient(
+  #154c79, #2596be,transparent
+  ), url("../images/dallasbg.jpg") no-repeat;
+  z-index:-1;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Oswald'; font-size: 100px;
+  color: #ffffff;
+}
+h2 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #2a1b3d;
+  text-shadow: 4px 4px 4px #aaa;
+}
+h3, h4, h5  {
+  font-family: 'Righteous';
+ font-style: normal;
+ font-variant: normal; font-weight: 400;
+ color:  #1e81b0;
+}
+h6{
+ font-family: 'Helvetica', cursive;
+  font-style: normal;
+ font-variant: normal; font-weight: normal;
+  color: #1e81b0;
+ text-shadow: 4px 4px 4px #aaa;
+}
+.info-title {
+ font-family: 'Pacifico', cursive;
+  font-style: normal;
+ font-variant: normal; font-weight: normal;
+ text-shadow: 4px 4px 4px #aaa;
+}
+#elementEl::after {
+  content: '|';
+  margin-left: 5px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.text-reset {
+    color:#1e81b0;
+    font-weight: 400;
+}
+
+.btn.btn-primary {
+    background-color: #154c79;
+    border-color: #154c79;
+}
+.btn.btn-primary:hover {
+    background-color: #76b5c5;
+    border-color: #76b5c5;
+}
+.btn.btn-primary:active {
+    background-color: #154c79;
+    border-color: #154c79;
+}
+.btn.btn-primary:focus {
+    background-color: #154c79;
+    border-color: #154c79;
+}
+.btn.btn-primary:active:focus {
+    background-color: #154c79;
+    border-color: #154c79;
+}
